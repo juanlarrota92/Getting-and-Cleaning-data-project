@@ -32,8 +32,8 @@ Each record of the data set  contains the following information:
 1. As soon as you set your working directory
 2. Load the data  related to the training and test set into R.
 3. Assign column names and merge both training and test set.
-4. Extract the measurments related to the mean and standard deviation.
-this can be done using the grep function in which you can get the indeces of the columns that has in their name either the mean or the standard deviation. then you can extract the columns that you need ( subjectId, activityId and the output od the grep function).
+4. Extract the measurements related to the mean and standard deviation.
+this can be done using the grep function in which you can get the indeces of the columns that has in their name either the mean or the standard deviation. and then  extract the columns that  needed ( subjectId, activityId and the output od the grep function).
 5. Use descriptive activity names to name the activities.This can be done by merging the data set by the Id row.
 6. Modify the colnames in the data set to get clean and readable names.The function gsub was the method chosen to do this. here you can see an example of the transformartion fBodyBodyGyroJerkMag-std()  to tBodyGyroJerkMagStdev().
 7. Create a second, independent tidy data set with the average of each variable for each activity and each subject. 
