@@ -19,5 +19,6 @@ The  script  created ("run_analysis.R") does the following:
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ##Additional Information
-in this repo there is a a code book where you can find detailed information about  the variables, data and all the transformations performed to clean up the data and briefly explanation about  the procedure followed to get tidy data from its source. 
+In this repo there is a a code book where you can find detailed information about  the variables, data and all the transformations performed to clean up the data and briefly explanation about  the procedure followed to get tidy data from its source.
+Don´t forget to set your working directory with the location of the source file in your own directory to run the script.
 
