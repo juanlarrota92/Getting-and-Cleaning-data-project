@@ -30,7 +30,7 @@ Each record of the data set  contains the following information:
 
 ## Transformations performed
 1. As soon as you set your working directory
-2. Load the data  related to the training and test set.
+2. Load the data  related to the training and test set into R.
 3. Assign column names and merge both training and test set.
 4. Extract the measurments related to the mean and standard deviation.
 this can be done using the grep function in which you can get the indeces of the columns that has in their name either the mean or the standard deviation. then you can extract the columns that you need ( subjectId, activityId and the output od the grep function).
